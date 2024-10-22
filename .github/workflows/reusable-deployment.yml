@@ -21,8 +21,7 @@ on:
         default: 'ubuntu-latest-3.8'
         type: string
         required: true
-
-        
+     
 jobs:
     deploy-helm:
       name: ${{ inputs.environment }}
